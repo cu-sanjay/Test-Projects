@@ -1,0 +1,7 @@
+{
+    "homepage": "https://cu-sanjay.github.io/Test-Projects",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  }

@@ -1,1 +1,106 @@
- 
+#cricapi_widget_score * {
+    box-sizing: content-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    user-select: none;
+}
+
+#cricapi_widget_score h6 {
+    font-size: 1.2em;
+    margin: 0px;
+}
+
+#cricapi_widget_score TABLE {
+    margin: 0px;
+}
+
+#cricapi_widget_score TH,
+#cricapi_widget_score TD {
+    padding: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 0;
+    border-left: 0;
+    text-align: left;
+    border-right: 0;
+}
+
+#cricapi_widget_score HR {
+    clear: both;
+    height: 1px;
+    min-height: 0;
+    border-top: 1px solid #e5e5e5;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+}
+
+#cricapi_widget_score.slideholder {
+    margin: auto;
+    box-sizing: content-box;
+    background: #fff;
+    outline: 1px #777 solid;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    font-size: 10pt;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    line-height: 1.2;
+}
+
+#cricapi_widget_score .slide {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+#cricapi_widget_score .slab {
+    position: relative;
+    vertical-align: top;
+    height: 100%;
+    border: 2px #070 solid;
+    padding: 8px;
+}
+
+#cricapi_widget_score .slab>* {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), url('https://cdorg.b-cdn.net/img/doodul.png');
+}
+
+#cricapi_widget_score .slab DIV {
+    display: block;
+    position: relative;
+    vertical-align: top;
+}
+
+#cricapi_widget_score .criclogo {
+    display: block !important;
+    max-width: 100%;
+    width: 48px !important;
+    height: auto;
+    margin: auto auto 5px auto !important;
+    border-radius: 24px !important;
+}
+
+#cricapi_modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #fff;
+    z-index: 9999999999;
+}
+
+#cricapi_modal IFRAME {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
